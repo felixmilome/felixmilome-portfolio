@@ -3,8 +3,11 @@ import { ProjectCard } from "./ProjectCard";
 import socialImg from "../assets/img/socialappimg.jpg";
 import duhqaImg from "../assets/img/ecommerce.png";
 import adminImg from "../assets/img/adminPanel.png";
+import designImg from "../assets/img/design.png";
 import gitImg from "../assets/img/githubImg.jpeg";
 import bookImg from "../assets/img/bookui.png";
+import horseaiImg from "../assets/img/horseai.png";
+import monkImg from "../assets/img/monk.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -20,10 +23,23 @@ export const Projects = () => {
       href:'https://admin-dash-sample.vercel.app'
     },
     {
+      title: "Graphic Design",
+      description: "Logo & Banner",
+      imgUrl: designImg,
+      href: '#'
+    },
+   
+    {
       title: "Social Site",
       description: "Mern Stack",
       imgUrl: socialImg,
       href:'https://social-sample-ui.vercel.app//profile'
+    },
+    {
+      title: "AI Art",
+      description: "Promt Art",
+      imgUrl: horseaiImg,
+      href: '#'
     },
    
     {
@@ -37,6 +53,12 @@ export const Projects = () => {
       description: "Contractor",
       imgUrl: duhqaImg,
       href:'https://duhqa.com'
+    },
+    {
+      title: "Fun Cartoon Art",
+      description: "Illustration",
+      imgUrl: monkImg,
+      href: '#'
     },
     {
       title: "Git Hub",

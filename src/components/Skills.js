@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Web Developer, App Developer, Database Creation & Management, Ethical Hacking<br>
+                        <p>Graphic Design, Web Developer, App Developer, Database Creation & Management, Ethical Hacking<br>
                         </br>Javascript, Html, Php, Sql, Node Js, Express & Axios Apis, React Js/ Native, Web Sockets, Socket.Io, Redux, Tailwind, Bootstrap, Python<br></br>
                         </p>
                         
@@ -44,6 +44,11 @@ export const Skills = () => {
                         <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Full-Stack Dev</h5>
+                            </div>
+
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Graphic Design</h5>
                             </div>
 
                           <div className="item">
@@ -71,10 +76,6 @@ export const Skills = () => {
                                 <h5>Cloud Management</h5>
                             </div>
 
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Graphic Design</h5>
-                            </div>
                         </Carousel>
                     </div>
                 </div>

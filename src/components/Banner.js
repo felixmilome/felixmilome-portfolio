@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web & Mobile App Developer"];
+  const toRotate = ["Web, Apps & Graphics Dev"];
   const period = 2000;
 
   useEffect(() => {
@@ -80,16 +80,16 @@ export const Banner = () => {
             
              {/* <span className="tagline">Welcome to my Portfolio</span> */}
            
-             <h1 >{`Felix Milome: `} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Web & Mobile App Developer"]'><span className="wrap">{text}</span></span></h1>
+             <h1 >{`Felix Milome: `} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Web, Apps, Graphic Designs"]'><span className="wrap">{text}</span></span></h1>
                
             
                 
                  {/* proficient in both frontend and backend technologies:</p> */}
             
-                  <span>JavaScript/TypeScript, Node Js, Express, React Js/Native, Mongo Db, MsSql/Sql, Js Ethical Hacking, Python, Php and many more</span><br></br><br></br>
+                  <span>Graphic Design, JavaScript/TypeScript,  Node Js, Express, React Js/Native, Mongo Db, MsSql/Sql, Js Ethical Hacking, Python, Php and many more</span><br></br><br></br>
                   <span>+ Over 10 years experience, </span><br></br>
                   <span>+ Harvard X Certified </span><br></br>
-                    <span>+  Full-stack programmer </span>
+                    <span>+  Full-stack programmer, Graphic designer</span>
         
                   <a style={{textDecoration:'none'}}  href="https://www.linkedin.com/in/felix-milome-9a15435b/" target="_blank">
                     <div className="social-icon">
